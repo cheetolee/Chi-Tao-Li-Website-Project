@@ -1,0 +1,17 @@
+<!-- CSS -->
+<!-- Started about me -->
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../img/backgroundimage.jpg');
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  left: 0;
+  right: 0;
+  width: auto;
+}
