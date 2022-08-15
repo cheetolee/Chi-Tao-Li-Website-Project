@@ -1,5 +1,5 @@
 <!-- CSS -->
-<!-- Started frame -->
+<!-- Finalized frame -->
 
 html,
 body {
@@ -81,5 +81,91 @@ li ul {
 .content ol a {
   text-decoration: none;
   color: #005cbf;
+}
+
+.content p a:hover,
+.content ul a:hover,
+.content ol a:hover {
+  text-decoration: underline;
+}
+
+.content-table {
+  padding: 20px 10px;
+  width: 100%;
+  margin: 0;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: border-box;
+}
+
+.flex_item {
+  margin: 0 20px;
+}
+
+.left-align {
+  float: left;
+}
+
+.right-align {
+  float: right;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text {
+  margin: 10px 0 10px 0;
+  padding: 0;
+}
+
+.image {
+  border-radius: 2px;
+  width: 100%;
+  margin: 15px 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+}
+
+.image.center {
+  align-self: center;
+}
+
+.text-large {
+  font-size: 24px;
+}
+
+.text-small {
+  font-size: 15px;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
 }
 
