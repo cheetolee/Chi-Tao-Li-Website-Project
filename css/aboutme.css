@@ -1,5 +1,5 @@
 <!-- CSS -->
-<!-- Started about me -->
+<!-- Finalized about me -->
 
 html,
 body {
@@ -14,4 +14,16 @@ body {
   left: 0;
   right: 0;
   width: auto;
+}
+
+.main{
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: 0 0 10px 0;
 }
