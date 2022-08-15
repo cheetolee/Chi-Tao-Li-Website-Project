@@ -1,0 +1,85 @@
+<!-- CSS -->
+<!-- Started frame -->
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+a {
+  outline: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+ul,
+ol {
+  margin: 10px 0 10px 0;
+}
+
+li ol,
+li ul {
+  margin: 0;
+}
+
+.main_container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  background-color: #212121;
+  min-width: 300px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.content-container {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  min-width: 300px;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 900px;
+  overflow-x: auto;
+  color:#F8F0E3;
+}
+
+.content p a,
+.content ul a,
+.content ol a {
+  text-decoration: none;
+  color: #005cbf;
+}
+
