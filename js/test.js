@@ -1,6 +1,3 @@
-<!-- JAVASCRIPT -->
-<!-- Finalized javascript -->
-
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   alert("Offer : Free boxing gear if you signup before December 2022!!");
